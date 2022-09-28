@@ -12,7 +12,7 @@ const onClickFiberyTest = () => {
                 "q/limit": 50
             })
 
-          //  console.log('users:', users)
+         console.log('users:', users)
 
            /*
             users: [
