@@ -4,8 +4,8 @@ const prisma = require('../../prisma-client')
 
 const onClickManageChannelButton = (_channels) => {
     app.action('on_click_manage_channels_button', async ({ payload, ack, say, client, body, logger }) => {
-        console.log('payload', payload)
-        console.log('body', body)
+        //console.log('payload', payload)
+        //console.log('body', body)
 
         await ack()
         const { ts } = body.message
