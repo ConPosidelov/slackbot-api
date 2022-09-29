@@ -5,7 +5,7 @@ const { transformSlackComment } = require('./transformSlackComment')
 const { transformUser } = require('./transformUser')
 
 
-const COMMENT_AUTHOR_NAME = process.env.COMMENT_AUTHOR_NAME || config.COMMENT_AUTHOR_NAME
+const COMMENT_AUTHOR_NAME = 'kposidelov'
 
 const sendCommentToFiberyCandidate = async (candidateId, _comment, author) => {
     const PARENT_ENTITY_ID = candidateId

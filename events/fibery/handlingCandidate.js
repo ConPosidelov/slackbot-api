@@ -3,7 +3,7 @@ const prisma = require('../../prisma-client')
 const { updateCandidate } = require('./updateCandidate')
 const { addComment } = require('./addComment')
 
-const channelName = process.env.HIRING_CHANNEL_NAME || config.HIRING_CHANNEL_NAME
+const channelName = process.env.HIRING_CHANNEL_NAME || 'hiring-from-fibery-public'
 
 // type: 'update' | 'add_comment'
 const handlingCandidate = async (type, entity, channels) => {
